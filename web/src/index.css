@@ -1,5 +1,85 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+window,
+body,
+.root {
+    background: #ECEFF1;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+}
+
+.root {
+    max-width: 772px;
+    margin-top: auto;
+    padding: 10px 10px 0;
+    border-radius: 3px;
+    position: relative;
+}
+
+.root section {
+    background-color: white;
+    position: relative;
+    height: 100%;
+    font-size: medium;
+    padding: 10px;
+    margin: 4px 0 0;
+}
+
+.app-header {
+    display: block;
+    text-align: start;
+    background: #039be5;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.app-footer {
+    border-top: solid thin #CCC;
+    text-align: center;
+    font-size: small;
+    color: #636363;
+    padding: 2px;
+    margin: 0;
+}
+
+.app-logo {
+    vertical-align: bottom;
+    transition: all;
+    max-height: 48px;
+}
+
+.root,
+.root a,
+.app-header {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.app-title {
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    body,
+    .root {
+        margin: 0;
+        box-shadow: none;
+    }
+    .root {
+        padding: 0;
+        max-width: initial;
+    }
+    .app-header {
+        padding: 0;
+        border-radius: 0;
+    }
+    .app-logo {
+        max-height: 32px;
+    }
 }
