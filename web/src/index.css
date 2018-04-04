@@ -12,7 +12,7 @@ body,
 
 .root {
     max-width: 772px;
-    margin-top: auto;
+    margin: auto;
     padding: 10px 10px 0;
     border-radius: 3px;
     position: relative;
@@ -82,4 +82,50 @@ body,
     .app-logo {
         max-height: 32px;
     }
+}
+
+.route-view header {
+    text-align: start;
+    text-transform: uppercase;
+}
+
+.route-view {
+    padding: 10px;
+    background-color: #FFF;
+    position: relative;
+}
+
+.route-view header h2 {
+    border-bottom: inset thin #ccc;
+}
+
+.route-view footer {
+    text-align: center;
+}
+
+.route-view footer button {
+    padding: 4px 12px;
+    border: solid thin #CCC;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.form-control {
+    border-bottom: inset thin #ccc;
+    margin: 4px 0;
+    padding: 4px;
+}
+
+.form-control label {
+    min-width: 75px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.form-control input,
+.form-control select {
+    border: solid thin #DDD;
+    padding: 4px;
+    min-width: 225px;
+    margin: 0;
 }

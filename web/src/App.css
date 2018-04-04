@@ -42,3 +42,27 @@ tfoot tr {
     font-weight: bold;
     color: white;
 }
+
+nav {
+    padding: 7px 0;
+    border-bottom: solid thin #039be5;
+    position: relative;
+    margin: 8px 0;
+}
+
+nav a {
+    padding: 8px 8px;
+    margin: 0 4px 0 0;
+    font-size: medium;
+    border-radius: 4px 4px 0 0;
+}
+
+.active-link {
+    background-color: #039be5;
+    border-bottom: #ECEFF1;
+    color: #FFF;
+}
+
+.right {
+    float: right;
+}
